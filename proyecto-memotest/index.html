@@ -17,8 +17,10 @@
     <title>MEMOTEST</title>
   </head>
   <body>
-    <div class="container">
+    <header>
       <h1>MEMOTEST</h1>
+    </header>
+    <div class="container">
       <div class="btn-container">
         <button class="button facil">FACIL</button>
         <button class="button medio">MEDIO</button>
@@ -26,6 +28,11 @@
       </div>
       <div class="tablero" id="tablero"></div>
       <button class="nuevo-juego">NUEVO JUEGO</button>
+      <div class="timer" style="display: none"><h2>00:0</h2></div>
+      <div class="winner">
+        <h2>GANASTE!</h2>
+        <button id="btnPlayAgain">Jugar de nuevo</button>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
